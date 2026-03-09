@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
@@ -18,5 +17,11 @@
   "bugs": {
     "url": "https://github.com/Praggie29/Backend-Ledger/issues"
   },
-  "homepage": "https://github.com/Praggie29/Backend-Ledger#readme"
+  "homepage": "https://github.com/Praggie29/Backend-Ledger#readme",
+  "dependencies": {
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^17.3.1",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.2.4"
+  }
 }
